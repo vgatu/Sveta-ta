@@ -1,0 +1,24 @@
+/* стиль = селектор {свойство} */
+
+	table{color:white; border-radius: 8px; border: 2px solid red;
+    background-color: blue}
+  [href="#developer"] {color:orange;}
+  #developer {color:black;}
+  [colspan="2"] {color: grey;}
+  li[height="50"] {color: black;} /*стиля для тега li с атрибутом height="50"*/
+  .privet {color:purple;} /* стиль для тега с атрибутом class="privet" */
+  .tet-bold {font-weight:bold;}
+ .list > li{color:black} /* только длz первого поколения потомков  от .list */
+ table tr {font-style: oblique;}  /* ко всем tr  находящихся внутри table */
+ .font-size-md {font-size: 28px;}
+ /* первоначальный класс,дополненнный опциями */
+ .font-size-md.color-red {color: red;}
+ .font-size-md.color-grey {color: grey;}
+
+
+ /* Приоритеты стилей по убывающей
+1. Записан в атрибуте
+2. Присваиваемый через идентификатором
+3. Присваиваемый через класс
+4. Присваиваемый через тип тега
+  */
